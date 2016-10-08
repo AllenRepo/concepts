@@ -1,6 +1,6 @@
 # concepts
-> design pattern notes
-> algorithm notes
+> design pattern notes  
+> algorithm notes  
 > design principle notes
 
 ## todo
