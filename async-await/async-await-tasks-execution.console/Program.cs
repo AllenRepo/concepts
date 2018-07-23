@@ -9,9 +9,9 @@ namespace async_await_tasks_execution.console
         {
             //new task().test();
             //new taskwait().test();
-            //new asyncsemiawait().test();
+            new asyncsemiawait().test();
             //new nestedtask().test();
-            new nestedasyncsemiawait().test();
+            //new nestedasyncsemiawait().test();
 
             Console.ReadLine();
         }

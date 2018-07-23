@@ -14,6 +14,8 @@ namespace async_await_tasks_execution.console
             var task2 = method2();
             var task3 = method3();
 
+            Console.WriteLine("reached");
+
             Task.WhenAll(task1, task2, task3)
                 .ConfigureAwait(false)
                 .GetAwaiter()

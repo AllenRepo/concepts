@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-await.console", "asyn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-await.net.web", "async-await.net.web\async-await.net.web.csproj", "{05D2D74D-E80B-4655-997A-6EF2033F6BAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-await-tasks-execution.console", "async-await-tasks-execution.console\async-await-tasks-execution.console.csproj", "{39EA434B-F227-4FC5-AD05-A9CCE08A84DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "async-await-tasks-execution.console", "async-await-tasks-execution.console\async-await-tasks-execution.console.csproj", "{39EA434B-F227-4FC5-AD05-A9CCE08A84DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-await-tasks-exercise", "async-await-tasks-exercise\async-await-tasks-exercise.csproj", "{80963DA9-7670-4B10-BE8F-12A895ECC9E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{39EA434B-F227-4FC5-AD05-A9CCE08A84DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EA434B-F227-4FC5-AD05-A9CCE08A84DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EA434B-F227-4FC5-AD05-A9CCE08A84DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80963DA9-7670-4B10-BE8F-12A895ECC9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80963DA9-7670-4B10-BE8F-12A895ECC9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80963DA9-7670-4B10-BE8F-12A895ECC9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80963DA9-7670-4B10-BE8F-12A895ECC9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

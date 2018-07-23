@@ -14,6 +14,8 @@ namespace async_await_tasks_execution.console
             var task2 = method2();
             var task3 = method3();
 
+            Console.WriteLine("hello main");
+
             Task.WhenAny(task1, task2, task3)
                 .ConfigureAwait(false)
                 .GetAwaiter()
@@ -23,6 +25,7 @@ namespace async_await_tasks_execution.console
 
         public async Task method1()
         {
+            Console.WriteLine("hello1");
             foreach (var i in new int[10])
             {
                 await Task.Delay(1000);
@@ -32,6 +35,7 @@ namespace async_await_tasks_execution.console
 
         public async Task method2()
         {
+            Console.WriteLine("hello2");
             foreach (var i in new int[10])
             {
                 await Task.Delay(500);
@@ -41,6 +45,7 @@ namespace async_await_tasks_execution.console
 
         public async Task method3()
         {
+            Console.WriteLine("hello3");
             foreach (var i in new int[10])
             {
                 await Task.Delay(100);
