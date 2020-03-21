@@ -89,6 +89,7 @@
     <Compile Include="Priciples\LiskovSubstitution.cs" />
     <Compile Include="Priciples\InterfaceSegregation.cs" />
     <Compile Include="Priciples\DependencyInversion.cs" />
+    <Compile Include="Priciples\StackVsHeap.cs" />
     <Compile Include="Priciples\_SOLID.cs" />
     <Compile Include="Priciples\_Encapsulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

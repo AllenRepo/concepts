@@ -169,5 +169,18 @@ namespace async_await.net.web.Controllers
         }
 
         public delegate int ManualCaller();
+
+
+        [HttpGet]
+        public void AsyncResultBlock()
+        {
+            var result = Helper().Result;
+        }
+
+        public async Task<int> Helper()
+        {
+            await Task.Delay(1000);
+            return await Task.Run(() => 100);
+        }
     }
 }

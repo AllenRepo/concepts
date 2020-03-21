@@ -16,9 +16,8 @@ namespace async_await_tasks_exercise
 
             try
             {
+                Task.Delay(100000000, tokenSource.Token);
                 tokenSource.Cancel();
-                Task.Delay(100000000, tokenSource.Token)
-                    .Wait();
                 Assert.Fail("should've thrown OperationCanceledException.");
             }
             catch (AggregateException ex)
